@@ -2,35 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg-home {
+  background: rgb(28,40,64);
+  background: linear-gradient(90deg, #100e1d 0%, #120e1a 50%, #050112 100%);
+}
+
+.section-header{
+  display: flex;
+  align-items: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.section-home{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+  padding-bottom: 7rem;
+}
+
+.logo{
+  max-width: 100px;
+}
+
 .btn {
-  background: linear-gradient(
-    92.23deg,
-    #ff56f6 21.43%,
-    #b936ee 50.63%,
-    #3bace2 100%,
-    #406aff 117.04%
-  );
-  box-shadow: 0px 4.42184px 107.23px rgba(255, 86, 246, 0.51);
+  background: #4e6ddc;
+  box-shadow: 0px 4.42184px 107.23px rgba(86, 244, 255, 0.51);
+  transition: 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background: linear-gradient(
-    92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
-  );
+  background: #CEECF2;
+  color: #1C2840;
+  transition: 0.3s ease-in-out;
 }
 
 .gradient,
 .active {
   background: linear-gradient(
     92.23deg,
-    #406aff 21.43%,
-    #3bace2 50.63%,
-    #b936ee 100%,
-    #ff56f6 117.04%
+    #4e6ddc 21.43%,
+    #406aff 50.63%,
+    #495ed6 100%,
+    #7627d6 117.04%
   );
 }
 
@@ -39,6 +54,20 @@
   padding: 1rem;
   border-radius: 100%;
 }
+
+@media (min-width: 1024px) {
+  .section-header{
+    height: 10vh;
+  }
+  
+  .section-home{
+    height: 92vh;
+  }
+
+  .m-negativo{
+    margin-top: -3rem;
+  }
+ }
 
 @layer base {
   body {
