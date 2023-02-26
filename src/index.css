@@ -3,18 +3,18 @@
 @tailwind utilities;
 
 .bg-home {
-  background: rgb(28,40,64);
+  background: rgb(28, 40, 64);
   background: linear-gradient(90deg, #100e1d 0%, #120e1a 50%, #050112 100%);
 }
 
-.section-header{
+.section-header {
   display: flex;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.section-home{
+.section-home {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -22,19 +22,31 @@
   padding-bottom: 7rem;
 }
 
-.logo{
+.logo {
   max-width: 100px;
+}
+
+.about-text span{
+  background-image: linear-gradient(to right, var(--tw-gradient-stops));
+  --tw-gradient-from: #57d3fc;
+  --tw-gradient-to: rgb(66 166 227 / 0);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+  --tw-gradient-to: #1fdcdc;
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-weight: 600;
+  color: transparent;
 }
 
 .btn {
   background: #4e6ddc;
-  box-shadow: 0px 4.42184px 107.23px rgba(86, 244, 255, 0.51);
+  box-shadow: 0px 4.42184px 107.23px #56f4ff82;
   transition: 0.3s ease-in-out;
 }
 
 .btn:hover {
-  background: #CEECF2;
-  color: #1C2840;
+  background: #ceecf2;
+  color: #1c2840;
   transition: 0.3s ease-in-out;
 }
 
@@ -56,18 +68,18 @@
 }
 
 @media (min-width: 1024px) {
-  .section-header{
+  .section-header {
     height: 10vh;
   }
-  
-  .section-home{
+
+  .section-home {
     height: 92vh;
   }
 
-  .m-negativo{
+  .m-negativo {
     margin-top: -3rem;
   }
- }
+}
 
 @layer base {
   body {
