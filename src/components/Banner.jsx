@@ -13,7 +13,7 @@ function Banner() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="mb-0 text-[3rem] md:text-[6rem] xl:text-[9rem] font-secondary font-semibold uppercase leading-[1] text-center mb-0 z-30 relative drop-shadow-md"
+          className="mb-0 text-[3rem] md:text-[6rem] xl:text-[8rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 relative drop-shadow-md"
         >
           IVÁN FEREZ
         </motion.h1>
@@ -22,7 +22,7 @@ function Banner() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[2rem] md:text-[4rem] xl:text-[7rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 relative drop-shadow-md"
+          className="text-[2rem] md:text-[4rem] xl:text-[6rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 relative drop-shadow-md"
         >
           FRONT END DEVELOPER
         </motion.h2>
