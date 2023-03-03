@@ -12,7 +12,7 @@ function Contact() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[2rem] md:text-[3rem] xl:text-[5rem] font-semibold uppercase text-center mt-20 md:mt-0 mb-6 md:mb-10 xl:mb-20"
+          className="text-[2rem] md:text-[3rem] xl:text-[5rem] font-semibold uppercase text-center mb-6 md:mb-10 xl:mb-20"
         >
           Contacto
         </motion.h3>

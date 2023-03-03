@@ -10,10 +10,10 @@ function Nav() {
     <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
       <div className="container mx-auto">
         <motion.div
-          variants={fadeIn("up", 1)}
+          variants={fadeIn("down", 1)}
           initial="hidden"
           whileInView={"show"}
-          className="w-full bg-white/10 h-[60px]  md:h-[80px] backdrop-blur-2x1 rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/50"
+          className="w-full bg-white/10 h-[80px] backdrop-blur-2x1 rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/50"
         >
           <Link
             to="home"
@@ -30,7 +30,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer md:w-[50px] md:h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
           >
             <BiUser />
           </Link>
@@ -39,7 +39,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer md:w-[50px] md:h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
           >
             <BsBrush />
           </Link>
@@ -48,7 +48,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer md:w-[50px] md:h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
           >
             <BsBriefcase />
           </Link>
@@ -57,7 +57,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer md:w-[50px] md:h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
           >
             <BsChatSquare />
           </Link>
