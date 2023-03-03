@@ -41,12 +41,12 @@
   color: transparent;
 }
 
-.text-gradient{
-  color: #41dcf1; 
+.text-gradient {
+  color: #41dcf1;
   transition: 0.3s ease-in-out;
 }
 
-.text-gradient:hover{
+.text-gradient:hover {
   color: #57a7fc;
   transition: 0.3s ease-in-out;
 }
@@ -151,8 +151,18 @@
 
 .active {
   color: #fff;
-  padding: 1rem;
+  padding: 0.6rem;
   border-radius: 100%;
+}
+
+.swiper-container {
+  width: 480px;
+}
+
+@media screen and (min-width: 768px) {
+  .swiper-container {
+    width: 100%;
+  }
 }
 
 @media (min-width: 960px) {
@@ -187,6 +197,10 @@
   .contacto-link {
     margin-top: 5rem;
   }
+
+  .active {
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -203,6 +217,7 @@
     font-size: 1.6rem;
   }
 }
+
 
 @layer base {
   body {

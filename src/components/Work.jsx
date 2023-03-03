@@ -85,7 +85,12 @@ function Work() {
           viewport={{ once: false, amount: 0.7 }}
         >
           <Swiper
-            slidesPerView={2}
+            breakpoints={{
+              768: {
+                slidesPerView: 2,
+              },
+            }}
+            slidesPerView={1}
             spaceBetween={30}
             pagination={{
               clickable: true,
@@ -94,9 +99,17 @@ function Work() {
             className="mySwiper"
           >
             {proyectos.map((proyecto) => (
-              <SwiperSlide key={proyecto.id} className="">
+              <SwiperSlide
+                key={proyecto.id}
+                className=""
+                style={{ width: "100% !important" }}
+              >
                 <h5 className="text-center">{proyecto.name}</h5>
-                <a href={proyecto.link} target="_blank" rel="noopener noreferrer"> 
+                <a
+                  href={proyecto.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src={proyecto.image}
                     className="w-100"

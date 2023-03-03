@@ -1,17 +1,13 @@
 import React from "react";
-import { useInView } from "react-intersection-observer";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
 function About() {
-  const [ref, inView] = useInView({
-    threshold: 0.5,
-  });
 
   return (
-    <section className="section" id="about" ref={ref}>
+    <section className="section" id="about">
       <div className="container mx-auto">
-        <article className="flex flex-col gap-y-10 lg:flex-row lg:items-center">
+        <article className="flex flex-col lg:flex-row lg:items-center">
           <motion.div
             variants={fadeIn("right", 0.3)}
             initial="hidden"
