@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import { motion } from "framer-motion";
@@ -64,7 +64,7 @@ function Work() {
 
   useEffect(() => {
     setProyectos(data);
-  }, [data]);
+  }, []);
 
   return (
     <section className="section" id="work">
@@ -96,7 +96,7 @@ function Work() {
             {proyectos.map((proyecto) => (
               <SwiperSlide key={proyecto.id} className="">
                 <h5 className="text-center">{proyecto.name}</h5>
-                <a href={proyecto.link} target="_blank">
+                <a href={proyecto.link} target="_blank" rel="noopener noreferrer"> 
                   <img
                     src={proyecto.image}
                     className="w-100"

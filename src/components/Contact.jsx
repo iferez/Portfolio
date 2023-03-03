@@ -1,16 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaReact,
-  FaBootstrap,
-  FaPhp,
-  FaGit,
-  FaDocker,
-} from "react-icons/fa";
 import { GoMail } from "react-icons/go";
 
 function Contact() {
@@ -59,14 +49,14 @@ function Contact() {
               className="row-span-2"
             >
               <a
-                href="https://www.linkedin.com/in/ivanferez/"
+                href="https://www.linkedin.com/in/ivanferez/" target="_blank" rel="noopener noreferrer"
                 className="row-span-1 col-card hover:bg-blue-400"
               >
                 LinkedIn
                 <p className="contacto-link">Visitar</p>
               </a>
               <a
-                href="https://github.com/iferez"
+                href="https://github.com/iferez" target="_blank" rel="noopener noreferrer"
                 className="row-span-1 col-card hover:bg-red-400"
               >
                 Github

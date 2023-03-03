@@ -10,7 +10,7 @@ function Header() {
             <img src={Logo} alt="Logo iFerez" className="logo" />
           </a>
           <a
-            href="https://www.linkedin.com/in/ivanferez/"
+            href="https://www.linkedin.com/in/ivanferez/" target="_blank" rel="noopener noreferrer"
             className="flex items-center btn btn-sm"
           >
             LinkedIn
