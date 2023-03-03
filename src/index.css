@@ -175,17 +175,17 @@
   }
 
   .col-card {
-    padding: 3rem;
+    padding: 1.8rem;
     font-size: 2.2rem;
   }
 
   .col-card svg {
-    font-size: 4rem;
+    font-size: 3.8rem;
   }
 
   .col-card-text {
-    margin-top: 7rem;
-    font-size: 1.4rem;
+    margin-top: 6rem;
+    font-size: 1.2rem;
   }
 
   .swiper-pagination-bullet {
@@ -195,7 +195,7 @@
   }
 
   .contacto-link {
-    margin-top: 5rem;
+    margin-top: 3.5rem;
   }
 
   .active {
@@ -216,6 +216,11 @@
     margin-top: 9rem;
     font-size: 1.6rem;
   }
+
+  .contacto-link {
+    margin-top: 5rem;
+  }
+
 }
 
 

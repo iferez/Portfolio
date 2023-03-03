@@ -12,7 +12,7 @@ function Banner() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="mb-0 text-[3rem] md:text-[6rem] xl:text-[8rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 relative drop-shadow-md"
+          className="mb-0 text-[3rem] md:text-[5rem] xl:text-[7.5rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 relative drop-shadow-md"
         >
           IVÁN FEREZ
         </motion.h1>
@@ -21,7 +21,7 @@ function Banner() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[2rem] md:text-[4rem] xl:text-[6rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 mb-4 relative drop-shadow-md"
+          className="text-[2rem] md:text-[3rem] xl:text-[5.5rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 mb-4 relative drop-shadow-md"
         >
           FRONT END DEVELOPER
         </motion.h2>
@@ -31,7 +31,7 @@ function Banner() {
           whileInView={"show"}
           className=" flex max-w-max items-center mx-auto mb-5 z-20"
         >
-          <img src={Perfil} alt="Foto de perfil" className="max-w-[230px] md:max-w-lg" />
+          <img src={Perfil} alt="Foto de perfil" className="max-w-[210px] xl:max-w-lg" />
         </motion.div>
         <motion.p
           variants={fadeIn("down", 1)}
