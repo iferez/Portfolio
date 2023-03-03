@@ -10,7 +10,7 @@ function Nav() {
     <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
       <div className="container mx-auto">
         <motion.div
-          variants={fadeIn("down", 1)}
+          variants={fadeIn("up", 1)}
           initial="hidden"
           whileInView={"show"}
           className="w-full bg-white/10 h-[80px] backdrop-blur-2x1 rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/50"
