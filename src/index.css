@@ -2,16 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
-.bg-home {
-  background: rgb(28, 40, 64);
-  background: linear-gradient(90deg, #100e1d 0%, #120e1a 50%, #050112 100%);
-}
-
 .section-header {
   display: flex;
   align-items: center;
   padding-top: 1rem;
   padding-bottom: 1rem;
+}
+
+.bg-home {
+  background: rgb(28, 40, 64);
+  background: linear-gradient(90deg, #100e1d 0%, #120e1a 50%, #050112 100%);
 }
 
 .section-home {
@@ -38,6 +38,7 @@
   color: transparent;
 }
 
+/* SERVICES */
 .service-card {
   margin: 0;
   transition: 0.2s -webkit-transform, 0.2s box-shadow;
@@ -75,6 +76,26 @@
   font-size: 1rem;
 }
 
+/* WORK */
+.swiper-pagination {
+  position: relative !important;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+  position: relative !important;
+  margin-top: 2rem;
+}
+
+.swiper-pagination-bullet {
+  background: #4e6ddc !important;
+  padding: 0.4rem;
+  margin: 1rem 0.5rem !important;
+}
+
+/* ALL */
 .btn {
   background: #4e6ddc;
   box-shadow: 0px 4.42184px 107.23px #56f4ff82;
@@ -126,6 +147,13 @@
     margin-top: 7rem;
     font-size: 1.4rem;
   }
+
+  .swiper-pagination-bullet {
+    background: #4e6ddc !important;
+    padding: 0.5rem;
+    margin: 1rem 0.5rem !important;
+  }
+  
 }
 
 @media (min-width: 1400px) {
