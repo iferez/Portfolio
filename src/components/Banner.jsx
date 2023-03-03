@@ -1,6 +1,5 @@
 import React from "react";
 import Perfil from "../assets/perfiliferezz.png";
-import { TypeAnimation } from "react-type-animation";
 import { motion } from "framer-motion";
 import { fadeIn } from "../variants";
 
@@ -22,7 +21,7 @@ function Banner() {
           initial="hidden"
           whileInView={"show"}
           viewport={{ once: false, amount: 0.7 }}
-          className="text-[2rem] md:text-[4rem] xl:text-[6rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 relative drop-shadow-md"
+          className="text-[2rem] md:text-[4rem] xl:text-[6rem] font-secondary font-semibold uppercase leading-[1] text-center z-30 mb-4 relative drop-shadow-md"
         >
           FRONT END DEVELOPER
         </motion.h2>
