@@ -7,13 +7,13 @@ import { fadeIn } from "../variants";
 
 function Nav() {
   return (
-    <nav className="fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50">
-      <div className="container mx-auto">
+    <nav className="fixed bottom-0 lg:bottom-8 w-full overflow-hidden z-50">
+      <div className="md:container md:mx-auto">
         <motion.div
           variants={fadeIn("up", 1)}
           initial="hidden"
           whileInView={"show"}
-          className="w-full bg-white/10 h-[80px] backdrop-blur-2x1 rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/50"
+          className="w-full bg-zinc-800 md:bg-white/10 h-[80px] md:backdrop-blur-2x1 md:rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/60"
         >
           <Link
             to="home"
@@ -21,7 +21,7 @@ function Nav() {
             smooth={true}
             spy={true}
             offset={-200}
-            className="cursor-pointer md:w-[50px] md:h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
           >
             <BiHomeAlt />
           </Link>

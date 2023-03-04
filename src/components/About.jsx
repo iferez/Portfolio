@@ -13,11 +13,11 @@ function About() {
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.7 }}
-            className="flex-1 bg-about bg-contain bg-no-repeat bg-center md:h-[300px] xl:h-[450px]"
+            className="flex-1 bg-about bg-contain bg-no-repeat bg-center md:h-[380px] xl:h-[450px]"
           ></motion.div>
           <div className="flex-1">
             <motion.h2
-              variants={fadeIn("down", 0.3)}
+              variants={fadeIn("left", 0.2)}
               initial="hidden"
               whileInView={"show"}
               viewport={{ once: false, amount: 0.7 }}
