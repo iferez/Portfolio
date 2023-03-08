@@ -198,9 +198,6 @@
     margin-top: 3.5rem;
   }
 
-  .active {
-    padding: 1rem;
-  }
 }
 
 @media (min-width: 1400px) {
@@ -220,7 +217,10 @@
   .contacto-link {
     margin-top: 5rem;
   }
-
+  
+  .active {
+    padding: 1rem;
+  }
 }
 
 

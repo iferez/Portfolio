@@ -13,7 +13,7 @@ function Nav() {
           variants={fadeIn("up", 1)}
           initial="hidden"
           whileInView={"show"}
-          className="w-full bg-zinc-800 md:bg-white/10 h-[80px] md:backdrop-blur-2x1 md:rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/60"
+          className="w-full bg-zinc-800 sm:bg-white/10 h-[60px] xl:h-[80px] sm:backdrop-blur-2x1 sm:rounded-full max-w-[460px] mx-auto px-5 flex justify-between items-center text-2x1 text-white/60"
         >
           <Link
             to="home"
@@ -21,7 +21,7 @@ function Nav() {
             smooth={true}
             spy={true}
             offset={-200}
-            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[36px] h-[36px] xl:w-[50px] xl:h-[50px] flex items-center justify-center"
           >
             <BiHomeAlt />
           </Link>
@@ -30,7 +30,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[36px] h-[36px] xl:w-[50px] xl:h-[50px] flex items-center justify-center"
           >
             <BiUser />
           </Link>
@@ -39,7 +39,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[36px] h-[36px] xl:w-[50px] xl:h-[50px] flex items-center justify-center"
           >
             <BsBrush />
           </Link>
@@ -48,7 +48,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[36px] h-[36px] xl:w-[50px] xl:h-[50px] flex items-center justify-center"
           >
             <BsBriefcase />
           </Link>
@@ -57,7 +57,7 @@ function Nav() {
             activeClass="active"
             smooth={true}
             spy={true}
-            className="cursor-pointer w-[50px] h-[50px] flex items-center justify-center"
+            className="cursor-pointer w-[36px] h-[36px] xl:w-[50px] xl:h-[50px] flex items-center justify-center"
           >
             <BsChatSquare />
           </Link>
