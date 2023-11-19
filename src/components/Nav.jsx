@@ -43,7 +43,7 @@ function Nav() {
           >
             <BsBrush />
           </Link>
-          <Link
+          {/* <Link
             to="work"
             activeClass="active"
             smooth={true}
@@ -51,7 +51,7 @@ function Nav() {
             className="cursor-pointer w-[36px] h-[36px] xl:w-[50px] xl:h-[50px] flex items-center justify-center"
           >
             <BsBriefcase />
-          </Link>
+          </Link> */}
           <Link
             to="contact"
             activeClass="active"
